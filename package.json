@@ -5,6 +5,8 @@
 		"express":"2.5.0",
 		"jade":"0.16.4",
 		"html2jade":"0.1.0", 
-		"connect-form":"0.2.1"
+		"connect-form":"0.2.1",
+		"knox": "0.0.9",
+		"bitly": "1.2.2"
 	}
 }
