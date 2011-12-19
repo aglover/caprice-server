@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+<title>Should I buy it?</title>
+<style>
+header, nav, article, footer, address, section {
+ display: block;
+}
+#container {
+ width:600px;
+ margin:auto;
+ background-color:white;
+}
+header {
+ background-color:#FFA500;
+}
+nav li {
+ display:inline;
+ padding-right:1em;
+}
+nav a {
+ color:white;
+ text-decoration:none; 
+}
+nav a:hover {
+ text-decoration:overline; 
+}
+h1, h2 {
+ margin:0px;
+ font-size:1.5em;
+}
+h2 {
+ font-size:1em;
+}
+footer {
+ background-color:#FFA500;
+ text-align:center;
+}
+
+fieldset {
+  padding: 1em;
+  font:80%/1 sans-serif;
+  }
+label {
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  }
+
+</style>
+
+</head>
+<body>
+<div id="container">
+    <header>
+     <h1>Should I buy it?</h1>
+    </header>
+    <section>
+	    <div id="buy_image">			
+			<img src="../pics/bike.jpg" alt="should I buys it?" />
+		</div>
+     	<form>
+		  <fieldset>
+		  <legend>What do you think?</legend>
+		    <input type="radio" name="answer" value="no">Nope<br>
+			<input type="radio" name="answer" value="yes" checked>Yes!			
+			<input type="submit" value="Place your vote" />			
+		  </fieldset>
+		</form>
+		<fieldset>
+		  <legend>Comments</legend>
+		</fieldset>
+		
+    <footer>
+     <p>This is the Footer</p>
+    </footer>
+</div>
+</body>
+</html>

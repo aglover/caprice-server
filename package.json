@@ -1,0 +1,10 @@
+{
+	"name":"caprice",
+	"version":"0.0.1",
+	"dependencies":{
+		"express":"2.5.0",
+		"jade":"0.16.4",
+		"html2jade":"0.1.0", 
+		"connect-form":"0.2.1"
+	}
+}

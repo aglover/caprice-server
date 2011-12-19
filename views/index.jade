@@ -1,0 +1,20 @@
+body
+  #container
+    header
+      h1 Should I buy it?
+    section
+      #buy_image
+        img(src='images/bike.jpg', alt='should I buy it?')
+      form
+        fieldset
+          legend What do you think?
+          input(type='radio', name='answer', value='no')
+          | Nope
+          br
+          input(type='radio', name='answer', value='yes', checked='checked')
+          | Yes!
+          input(type='submit', value='Place your vote')
+      fieldset
+        legend Comments
+      footer
+        p This is the Footer
